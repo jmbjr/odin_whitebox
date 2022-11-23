@@ -28,14 +28,14 @@ example on how to make odin work with whitebox.
     - Click the `DLL files` tab
     - Scroll down and click `Add group` button
     - In the text box, enter the path to your `odin_add.dll`
-    - click `OK` to save
+    - click `OK` to save   
 ![image](https://user-images.githubusercontent.com/3990931/203457781-12983be6-9796-4253-a0c0-d48f234c4dcf.png)
-1. Click on a line of source code and Watch The Magic!
+1. Click on a line of source code and Watch The Magic!   
 ![image](https://user-images.githubusercontent.com/3990931/203457930-3d7ca6c0-23a7-4a0f-8124-df896cbdb835.png)
 
 ## How does this work?  
 
-Currently, WhiteBox is unable to work with Odin source code. However, after a fun screen-sharing session with Andrew (@azmr, creator of WhiteBox), we managed to get WhiteBox to communicate with an Odin .dll.
+Currently, WhiteBox is unable to work with Odin source code. However, after a fun screen-sharing session with Andrew (@azmr, creator of WhiteBox) and @4984, we managed to get WhiteBox to communicate with an Odin .dll.
 
 Refer to the [Odin Binding to C docs](https://odin-lang.org/news/binding-to-c/) and the discussion on [Implicit context system](https://odin-lang.org/docs/overview/#implicit-context-system).  
 
