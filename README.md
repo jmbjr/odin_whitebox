@@ -1,5 +1,7 @@
 # odin_whitebox
-example on how to make odin work with whitebox
+example on how to make odin work with whitebox.
+
+*Please Note: This process is currently very cumbersome to set up and use and does not take advantage of WhiteBox's actual capability (by a long shot).  This is presented as one working example in case you want to inspect the inputs/outputs of some of your Odin procs.*
 
 ## Overview:   
 [Odin Language Home Page](https://odin-lang.org/)   
@@ -65,4 +67,6 @@ add :: proc"system"(a,b :f32) -> f32 {
 Due to this dependency on `main`, everything in the `main` proc is run in WhiteBox.
 ![image](https://user-images.githubusercontent.com/3990931/203458983-d76fc757-3b94-4211-b78b-714addd2f9b5.png)
 
+A final caveat is that when you recompile your Odin .dll, you will need to completely close out WhiteBox since WhiteBox currently locks the .dll, preventing recompilation.  This should be addressed in a future update. 
 
+Again, this is more of a "Here's Proof That You Can Run Odin With WhiteBox".  
