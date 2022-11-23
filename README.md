@@ -11,6 +11,7 @@ example on how to make odin work with whitebox.
 ## Instructions:  
 1. Follow instructions to get/compile Odin and install WhiteBox
     - The [Odin](https://discord.com/invite/sVBPHEv) and [WhiteBox](https://t.co/Oky8t1Ao7O) Discord servers are very helpful
+    - Specifically, thanks @4984 and @azmr, since you guys did most of the work helping me out!
 1. Install the WhiteBox plugin in your editor of choice
     - I use VS Code
 1. Compile `add.odin` to .dll by running `build.bat`
